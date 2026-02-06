@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.biothermica.com/fr/taxonomy/term/71/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>employment ; spontaneous application ; job opportunities</title>
+    <link>https://www.biothermica.com/fr/taxonomy/term/71/all</link>
+    <description></description>
+    <language>fr</language>
+     <atom:link href="https://www.biothermica.com/fr/taxonomy/term/71/all/feed" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Work Together</title>
+    <link>https://www.biothermica.com/fr/node/458</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: #56626c; font-family: Verdana, &#039;Lucida Grande&#039;, &#039;Lucida Sans Unicode&#039;, Helvetica, Arial, sans-serif; font-size: 13px;&quot;&gt;Biothermica is always looking for talented people to join its team.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 04 Oct 2021 14:13:52 +0000</pubDate>
+ <dc:creator>Raphael</dc:creator>
+ <guid isPermaLink="false">458 at https://www.biothermica.com</guid>
+  </item>
+  </channel>
+</rss>

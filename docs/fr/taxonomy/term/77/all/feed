@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.biothermica.com/fr/taxonomy/term/77/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>à propos ; entreprise</title>
+    <link>https://www.biothermica.com/fr/taxonomy/term/77/all</link>
+    <description></description>
+    <language>fr</language>
+     <atom:link href="https://www.biothermica.com/fr/taxonomy/term/77/all/feed" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Vidéo Corporative</title>
+    <link>https://www.biothermica.com/fr/content/vid%C3%A9o-corporative</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 10pt;&quot;&gt;Vidéo corporative (2013) : &lt;/span&gt;&lt;span style=&quot;font-size: 10.0pt; font-family: &#039;Arial&#039;,sans-serif; mso-fareast-font-family: Carlito; mso-ansi-language: FR-CA; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AjGK3X0GEtU &quot;&gt;https://www.youtube.com/watch?v=AjGK3X0GEtU &lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;iframe src=&quot;http://www.youtube.com/embed/AjGK3X0GEtU&quot; frameborder=&quot;0&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 08 Mar 2013 15:20:15 +0000</pubDate>
+ <dc:creator>Raphael</dc:creator>
+ <guid isPermaLink="false">293 at https://www.biothermica.com</guid>
+  </item>
+  </channel>
+</rss>
