@@ -1,0 +1,22 @@
+title: Biothermica
+baseurl: ""
+url: ""
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: en
+
+  - scope:
+      path: "fr"
+    values:
+      layout: default
+      lang: fr
+
+exclude:
+  - node
+  - taxonomy
+  - modules
+  - tags

@@ -1,0 +1,44 @@
+backend:
+  name: github
+  repo: biothermica/biothermica-site
+  branch: main
+  base_url: https://app.staticauth.com
+  auth_endpoint: /auth/github/repo/<replace auth id>
+
+media_folder: "sites/biothermica.com/files"
+public_folder: "/sites/biothermica.com/files"
+
+collections:
+  - name: "pages_en"
+    label: "Pages (English)"
+    folder: ""
+    extension: "html"
+    format: "frontmatter"
+    create: false
+    delete: false
+    slug: "{{slug}}"
+    filter:
+      field: "lang"
+      value: "en"
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: false }
+      - { label: "Content (HTML)", name: "body", widget: "text" }
+
+  - name: "pages_fr"
+    label: "Pages (Français)"
+    folder: "fr"
+    extension: "html"
+    format: "frontmatter"
+    create: false
+    delete: false
+    slug: "{{slug}}"
+    filter:
+      field: "lang"
+      value: "fr"
+    fields:
+      - { label: "Titre", name: "title", widget: "string", required: false }
+      - { label: "Contenu (HTML)", name: "body", widget: "text" }
+
+editor:
+  preview: false
+
