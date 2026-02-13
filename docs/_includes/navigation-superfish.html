@@ -1,0 +1,45 @@
+<ul id="superfish-1"
+    class="sf-menu main-menu sf-horizontal sf-style-none">
+
+  {% for item in site.data.navigation.main %}
+    {% assign index = forloop.index %}
+    {% assign has_children = item.children != nil %}
+
+    <li class="
+      sf-item-{{ index }}
+      sf-depth-1
+      {% if forloop.first %}first{% endif %}
+      {% if forloop.last %}last{% endif %}
+      {% if forloop.index0 | modulo: 2 == 0 %}odd{% else %}even{% endif %}
+      {% if has_children %}menuparent{% else %}sf-no-children{% endif %}
+    ">
+
+      <a href="{{ item.url | relative_url }}"
+         class="sf-depth-1 {% if has_children %}menuparent{% endif %}">
+        {{ item.title }}
+      </a>
+
+      {% if has_children %}
+        <ul>
+          {% for child in item.children %}
+            <li class="
+              sf-item-{{ forloop.index }}
+              sf-depth-2
+              {% if forloop.first %}first{% endif %}
+              {% if forloop.last %}last{% endif %}
+              {% if forloop.index0 | modulo: 2 == 0 %}odd{% else %}even{% endif %}
+              sf-no-children
+            ">
+              <a href="{{ child.url | relative_url }}"
+                 class="sf-depth-2">
+                {{ child.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+    </li>
+  {% endfor %}
+
+</ul>
