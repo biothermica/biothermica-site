@@ -1,10 +1,12 @@
 title: Biothermica
+description: Integrated carbon and energy project developer
+lang: en
 baseurl: ""
 url: ""
 
 defaults:
   - scope:
-      path: ""
+      path: "en"
     values:
       layout: default
       lang: en

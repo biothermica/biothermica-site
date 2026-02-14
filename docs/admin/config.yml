@@ -11,7 +11,7 @@ public_folder: "/sites/biothermica.com/files"
 collections:
   - name: "pages_en"
     label: "Pages (English)"
-    folder: ""
+    folder: "."
     extension: "html"
     format: "frontmatter"
     create: false
