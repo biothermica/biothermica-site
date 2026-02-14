@@ -9,24 +9,87 @@ media_folder: "sites/biothermica.com/files"
 public_folder: "/sites/biothermica.com/files"
 
 collections:
+  # - name: "pages_en"
+  #   label: "Pages (English)"
+  #   folder: "docs"
+  #   extension: "html"
+  #   format: "frontmatter"
+  #   create: false
+  #   delete: false
+  #   slug: "{{slug}}"
+  #   filter:
+  #     field: "lang"
+  #     value: "en"
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string", required: false }
+  #     - { label: "Content (HTML)", name: "body", widget: "text" }
+
   - name: "pages_en"
     label: "Pages (English)"
-    folder: "."
+    folder: "docs/en"
     extension: "html"
     format: "frontmatter"
     create: false
     delete: false
-    slug: "{{slug}}"
-    filter:
-      field: "lang"
-      value: "en"
     fields:
-      - { label: "Title", name: "title", widget: "string", required: false }
-      - { label: "Content (HTML)", name: "body", widget: "text" }
+
+      - { label: "Title", name: "title", widget: "string" }
+
+      - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
+
+      - { label: "Meta Description", name: "meta_description", widget: "text", required: false }
+
+      - label: "Hero Slides"
+        name: "hero_slides"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "French Title", name: "title_fr", widget: "string", required: false }
+          - { label: "English Title", name: "title_en", widget: "string" }
+
+      - { label: "Main Slogan", name: "slogan", widget: "text", required: false }
+
+      - label: "Feature Links"
+        name: "features"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+
+      - label: "Awards Logos"
+        name: "awards"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Logo", name: "image", widget: "image" }
+          - { label: "Alt Text", name: "alt", widget: "string", required: false }
+
+      - { label: "Content (Optional Body)", name: "body", widget: "text", required: false }
+
+
+
+      # - { label: "Title", name: "title", widget: "string" }
+      # - { label: "Language", name: "lang", widget: "select", options: ["en","fr"], default: "en" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      # - { label: "Meta Description", name: "description", widget: "text" }
+
+      - { label: "Header Image", name: "header_image", widget: "image" }
+      - { label: "Sidebar Image", name: "sidebar_image", widget: "image" }
+
+      # - label: "Main Content"
+      #   name: "body"
+      #   widget: "markdown"
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+
 
   - name: "pages_fr"
     label: "Pages (Français)"
-    folder: "fr"
+    folder: "docs/fr"
     extension: "html"
     format: "frontmatter"
     create: false
@@ -39,6 +102,126 @@ collections:
       - { label: "Titre", name: "title", widget: "string", required: false }
       - { label: "Contenu (HTML)", name: "body", widget: "text" }
 
+
+  # =========================
+  # English - About Us
+  # =========================
+  # - name: "about_en"
+  #   label: "About Us (English)"
+  #   folder: "docs/en"
+  #   create: false
+  #   delete: false
+  #   slug: "about-us"
+  #   filter:
+  #     field: "permalink"
+  #     value: "/content/about-us/"
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Language", name: "lang", widget: "hidden", default: "en" }
+  #     - { label: "Permalink", name: "permalink", widget: "hidden", default: "/content/about-us/" }
+  #     - { label: "Meta Description", name: "description", widget: "text" }
+
+  #     - { label: "Header Image", name: "header_image", widget: "image" }
+  #     - { label: "Sidebar Image", name: "sidebar_image", widget: "image" }
+
+  #     - label: "Main Content"
+  #       name: "body"
+  #       widget: "markdown"
+
+  #     - label: "Tags"
+  #       name: "tags"
+  #       widget: "list"
+
+  # =========================
+  # French - Entreprise
+  # =========================
+  # - name: "about_fr"
+  #   label: "Entreprise (Français)"
+  #   folder: "docs/fr"
+  #   create: false
+  #   delete: false
+  #   slug: "entreprise"
+  #   filter:
+  #     field: "permalink"
+  #     value: "/fr/content/entreprise/"
+  #   fields:
+  #     - { label: "Titre", name: "title", widget: "string" }
+  #     - { label: "Langue", name: "lang", widget: "hidden", default: "fr" }
+  #     - { label: "Permalien", name: "permalink", widget: "hidden", default: "/fr/content/entreprise/" }
+  #     - { label: "Méta description", name: "description", widget: "text" }
+
+  #     - { label: "Image d’en-tête", name: "header_image", widget: "image" }
+  #     - { label: "Image latérale", name: "sidebar_image", widget: "image" }
+
+  #     - label: "Contenu principal"
+  #       name: "body"
+  #       widget: "markdown"
+
+  #     - label: "Tags"
+  #       name: "tags"
+  #       widget: "list"
+
+
+# collections:
+#   - name: "pages_en"
+#     label: "English Pages"
+#     folder: "docs/pages/en"
+#     create: true
+#     delete: true
+#     slug: "{{slug}}"
+#     fields:
+#       - { label: "Title", name: "title", widget: "string" }
+#       - { label: "Permalink", name: "permalink", widget: "string" }
+#       - { label: "Meta Description", name: "description", widget: "text" }
+#       - { label: "Header Image", name: "header_image", widget: "image" }
+#       - { label: "Sidebar Image", name: "sidebar_image", widget: "image" }
+#       - label: "Main Content"
+#         name: "body"
+#         widget: "markdown"
+#       - label: "Tags"
+#         name: "tags"
+#         widget: "list"
+
 editor:
   preview: false
+
+
+# name: "home_page"
+# label: "Home Page"
+# folder: "content/home"
+# create: true
+# slug: "{{slug}}"
+# fields:
+#   - { label: "Hero Title", name: "hero_title", widget: "string" }
+#   - { label: "Hero Image", name: "hero_image", widget: "image" }
+#   - { label: "Featured Sections", name: "featured_sections", widget: "list", fields: 
+#       - { label: "Title", name: "title", widget: "string" }
+#       - { label: "Content", name: "content", widget: "markdown" }
+#     }
+#   - { label: "SEO Title", name: "seo_title", widget: "string", required: false }
+#   - { label: "SEO Description", name: "seo_description", widget: "text", required: false }
+
+
+# name: "inner_page"
+# label: "Pages"
+# folder: "content/pages"
+# create: true
+# slug: "{{slug}}"
+# fields:
+#   - { label: "Template", name: "template", widget: "select", options: 
+#       - { label: "About Us", value: "about" }
+#       - { label: "Services", value: "services" }
+#       - { label: "Projects", value: "projects" }
+#       - { label: "Carbone & Énergie", value: "carbone" }
+#       - { label: "Air Treatment", value: "air" }
+#     }
+#   - { label: "Page Title", name: "page_title", widget: "string" }
+#   - { label: "Main Content", name: "body", widget: "markdown" }
+#   - { label: "Additional Sections", name: "sections", widget: "list", fields:
+#       - { label: "Section Title", name: "title", widget: "string" }
+#       - { label: "Section Content", name: "content", widget: "markdown" }
+#     }
+#   - { label: "SEO Title", name: "seo_title", widget: "string", required: false }
+#   - { label: "SEO Description", name: "seo_description", widget: "text", required: false }
+
 
