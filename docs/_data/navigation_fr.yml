@@ -13,9 +13,9 @@
     - title: "Prix et distinctions"
       url: /fr/content/prix-distinctions.html
     - title: "Vidéo Corporative"
-      url: /fr/content/video-corporative.html
+      url: /fr/content/vidéo-corporative.html
     - title: "Vidéo - Centrale Gazmont"
-      url: /fr/content/video-centrale-gazmont.html
+      url: /fr/content/vidéo-centrale-gazmont.html
 
 - title: "Assainissement de l'air"
   url: /fr/content/oxydation-thermique-regenerative.html
@@ -44,18 +44,18 @@
       url: /fr/content/projets.html
 
 - title: "Carbone et Énergie"
-  url: /fr/content/carbone-et-energie.html
+  url: /fr/content/carbone-et-énergie.html
   children:
     - title: "Étapes d'un projet"
-      url: /fr/content/carbone-et-energie.html
+      url: /fr/content/carbone-et-énergie.html
     - title: "Centrale Gazmont"
-      url: /fr/content/carbone-energie.html
+      url: /fr/content/carbone-énergie.html
     - title: "Projet Nejapa"
       url: /fr/content/nejapa-projet-biogaz.html
     - title: "BioEnergie Haiti"
       url: /fr/content/bioenergie-haiti.html
     - title: "BioÉnergie Togo"
-      url: https://www.biothermica.com/fr/content/carbone-et-energie/bioenergie-togo.html
+      url: /fr/https_/www.biothermica.com/fr/content/carbone-et-énergie/bioenergie-togo.html
 
 - title: "Documents"
   url: /fr/documents.html
