@@ -152,7 +152,6 @@ collections:
     filter:
       field: "lang"
       value: "en"
-
   
   - name: "en_pages"
     label: "English Pages"
