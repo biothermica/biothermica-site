@@ -188,9 +188,9 @@ collections:
 
 
 #French collections
-  - name: "fr_air_pollution_control_projects"
-    label: "FR Air Pollution Control Projects"
-    folder: "docs/fr/air-pollution-control/projects"
+  - name: "fr_air_pollution_control_projets"
+    label: "FR Air Pollution Control Projets"
+    folder: "docs/fr/air-pollution-control/projets"
     create: true
     nested:
       depth: 3
@@ -207,9 +207,9 @@ collections:
       field: "lang"
       value: "fr"
 
-  - name: "fr_assainissement_projects"
-    label: "FR Assainissement Projects"
-    folder: "docs/fr/assainissement/projects"
+  - name: "fr_assainissement_projets"
+    label: "FR Assainissement Projets"
+    folder: "docs/fr/assainissement/projets"
     create: true
     nested:
       depth: 3
@@ -289,7 +289,7 @@ collections:
 
   - name: "fr_documents"
     label: "Documents (FR)"
-    folder: "docs/en/documents"
+    folder: "docs/fr/documents"
     # nested:
     #   depth: 3
     extension: "html"
