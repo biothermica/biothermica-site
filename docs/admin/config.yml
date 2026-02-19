@@ -30,7 +30,6 @@ collections:
 
   - name: "en_assainissement_projets"
     label: "EN Assainissement Projets"
-    /Users/apple/business/snamy-groups/snamy-technologies/projects/services/dcycle/biothermica-site/docs/en/assainissement/projets
     folder: "docs/en/assainissement/projets"
     create: true
     nested:
@@ -153,11 +152,6 @@ collections:
     filter:
       field: "lang"
       value: "en"
-
-# /Users/apple/business/snamy-groups/snamy-technologies/projects/services/dcycle/biothermica-site-hs-18-feb-2026/docs/fr/https_/www.biothermica.com/fr/content/carbone-et-énergie/bioenergie-togo.html
-# /Users/apple/business/snamy-groups/snamy-technologies/projects/services/dcycle/biothermica-site-hs-18-feb-2026/docs/en/https_/www.biothermica.com/content/carbon-and-energy/bioenergy-togo.html
-
-
   
   - name: "en_pages"
     label: "English Pages"
@@ -360,8 +354,6 @@ collections:
     filter:
       field: "lang"
       value: "fr"
-
-# /Users/apple/business/snamy-groups/snamy-technologies/projects/services/dcycle/biothermica-site-hs-18-feb-2026/docs/fr/https_/www.biothermica.com/fr/content/carbone-et-énergie/bioenergie-togo.html
 
   - name: "fr_pages"
     label: "French Pages"
