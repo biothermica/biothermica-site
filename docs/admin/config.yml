@@ -28,9 +28,10 @@ collections:
       field: "lang"
       value: "en"
 
-  - name: "en_assainissement_projects"
-    label: "EN Assainissement Projects"
-    folder: "docs/en/assainissement/projects"
+  - name: "en_assainissement_projets"
+    label: "EN Assainissement Projets"
+    /Users/apple/business/snamy-groups/snamy-technologies/projects/services/dcycle/biothermica-site/docs/en/assainissement/projets
+    folder: "docs/en/assainissement/projets"
     create: true
     nested:
       depth: 3
