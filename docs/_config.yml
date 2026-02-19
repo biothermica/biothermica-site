@@ -1,0 +1,25 @@
+title: Biothermica
+description: Integrated carbon and energy project developer
+lang: en
+baseurl: ""
+url: ""
+site-slogan-fr: Notre énergie au service de l'environnement
+site-slogan-en: Our Energy for a Cleaner Environment
+
+defaults:
+  - scope:
+      path: "en"
+    values:
+      layout: default
+      lang: en
+
+  - scope:
+      path: "fr"
+    values:
+      layout: default
+      lang: fr
+
+exclude:
+  - node
+  - taxonomy
+  - modules
