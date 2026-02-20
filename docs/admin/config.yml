@@ -11,7 +11,7 @@ public_folder: "docs/sites/biothermica.com/files"
 collections:
   - name: "en_air_pollution_control_projects"
     label: "EN Air Pollution Control Projects"
-    folder: "docs/en/air-pollution-control/projects"
+    folder: "docs/air-pollution-control/projects"
     create: true
     nested:
       depth: 3
@@ -30,7 +30,7 @@ collections:
 
   - name: "en_assainissement_projets"
     label: "EN Assainissement Projets"
-    folder: "docs/en/assainissement/projets"
+    folder: "docs/assainissement/projets"
     create: true
     nested:
       depth: 3
@@ -49,7 +49,7 @@ collections:
 
   - name: "en_carbon_and_energy"
     label: "EN Carbon And Energy"
-    folder: "docs/en/carbon-and-energy"
+    folder: "docs/carbon-and-energy"
     create: true
     extension: "html"
     format: "frontmatter"
@@ -63,7 +63,7 @@ collections:
 
   - name: "en_content"
     label: "Contents (EN)"
-    folder: "docs/en/content"
+    folder: "docs/content"
     # nested:
     #   depth: 3
     extension: "html"
@@ -94,7 +94,7 @@ collections:
 
   - name: "en_documents"
     label: "Documents (EN)"
-    folder: "docs/en/documents"
+    folder: "docs/documents"
     # nested:
     #   depth: 3
     extension: "html"
@@ -124,7 +124,7 @@ collections:
 
   - name: "en_tags"
     label: "Tags (EN)"
-    folder: "docs/en/tags"
+    folder: "docs/tags"
     # nested:
     #   depth: 3
     extension: "html"
@@ -155,7 +155,7 @@ collections:
   
   - name: "en_pages"
     label: "English Pages"
-    folder: "docs/en"
+    folder: "docs"
     extension: "html"
     create: true
     delete: true
