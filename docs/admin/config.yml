@@ -3,7 +3,7 @@ backend:
   repo: biothermica/biothermica-site
   branch: main
   base_url: https://app.staticauth.com
-  auth_endpoint: /auth/github/repo/698dccd2577b4a4efbac6e42
+  auth_endpoint: /auth/github/repo/699c9420577b4a4efbac731a
 
 media_folder: "docs/sites/biothermica.com/files"
 public_folder: "docs/sites/biothermica.com/files"
