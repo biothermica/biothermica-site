@@ -2,8 +2,10 @@ backend:
   name: github
   repo: biothermica/biothermica-site
   branch: main
-  base_url: https://suresh-issue-82.dcycleproject.org
-  auth_endpoint: /auth/github/repo/69854552314079e1b66d994f
+  base_url: https://app.staticauth.com
+  auth_endpoint: /auth/github/repo/699c9420577b4a4efbac731a
+  # base_url: https://suresh-issue-82.dcycleproject.org
+  # auth_endpoint: /auth/github/repo/69854552314079e1b66d994f
 
 media_folder: "docs/sites/biothermica.com/files"
 public_folder: "docs/sites/biothermica.com/files"
