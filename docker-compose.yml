@@ -6,3 +6,12 @@ services:
       - 4590:4000
     volumes:
       - ./docs:/srv/jekyll
+  httpd:
+    image: httpd:2.4
+    ports:
+      - 4591:80
+    volumes:
+      - ./docs/_site:/usr/local/apache2/htdocs/biothermica-on-subpath
+networks:
+  default:
+    name: biothermica-site

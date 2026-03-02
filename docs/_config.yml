@@ -1,21 +1,6 @@
 title: Biothermica
 description: Integrated carbon and energy project developer
 lang: en
-# baseurl: "<base url of a site>"
-baseurl: "https://biothermica.dcycleproject.org/"
 url: ""
 site-slogan-fr: Notre énergie au service de l'environnement
 site-slogan-en: Our Energy for a Cleaner Environment
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-      lang: en
-
-  - scope:
-      path: "fr"
-    values:
-      layout: default-fr
-      lang: fr
