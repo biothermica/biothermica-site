@@ -9,7 +9,6 @@ docker compose up -d
 ```
 
 and visit http://0.0.0.0:4590
-and visit http://0.0.0.0:4591/biothermica-on-subpath
 
 ## Competitors
 
