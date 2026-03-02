@@ -17,5 +17,5 @@ defaults:
   - scope:
       path: "fr"
     values:
-      layout: default
+      layout: default-fr
       lang: fr
