@@ -77,7 +77,6 @@ collections:
       - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
       - { label: "Meta Description", name: "meta_description", widget: "text", required: false }
       - { label: "RSS Feed Title", name: "rss_feed_title", widget: "string", required: false }
-      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Path EN", name: "path_en", widget: "string", required: false }
       - { label: "Path FR", name: "path_fr", widget: "string", required: false }
 
@@ -108,7 +107,6 @@ collections:
       - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
       - { label: "Meta Description", name: "meta_description", widget: "text", required: false }
       - { label: "RSS Feed Title", name: "rss_feed_title", widget: "string", required: false }
-      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Path EN", name: "path_en", widget: "string", required: false }
       - { label: "Path FR", name: "path_fr", widget: "string", required: false }
 
@@ -138,7 +136,6 @@ collections:
       - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
       - { label: "Meta Description", name: "meta_description", widget: "text", required: false }
       - { label: "RSS Feed Title", name: "rss_feed_title", widget: "string", required: false }
-      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Path EN", name: "path_en", widget: "string", required: false }
       - { label: "Path FR", name: "path_fr", widget: "string", required: false }
       - { lalabel: "Term ID", name: "termId", widget: "number", value_type: "int" }
@@ -167,7 +164,6 @@ collections:
       - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
       - { label: "Meta Description", name: "meta_description", widget: "text", required: false }
       - { label: "RSS Feed Title", name: "rss_feed_title", widget: "string", required: false }
-      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Path EN", name: "path_en", widget: "string", required: false }
       - { label: "Path FR", name: "path_fr", widget: "string", required: false }
 
@@ -237,7 +233,6 @@ collections:
       - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
       - { label: "Meta Description", name: "meta_description", widget: "text", required: false }
       - { label: "RSS Feed Title", name: "rss_feed_title", widget: "string", required: false }
-      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Path EN", name: "path_en", widget: "string", required: false }
       - { label: "Path FR", name: "path_fr", widget: "string", required: false }
 
@@ -267,7 +262,6 @@ collections:
       - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
       - { label: "Meta Description", name: "meta_description", widget: "text", required: false }
       - { label: "RSS Feed Title", name: "rss_feed_title", widget: "string", required: false }
-      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Path EN", name: "path_en", widget: "string", required: false }
       - { label: "Path FR", name: "path_fr", widget: "string", required: false }
 
@@ -298,7 +292,6 @@ collections:
       - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
       - { label: "Meta Description", name: "meta_description", widget: "text", required: false }
       - { label: "RSS Feed Title", name: "rss_feed_title", widget: "string", required: false }
-      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Path EN", name: "path_en", widget: "string", required: false }
       - { label: "Path FR", name: "path_fr", widget: "string", required: false }
 
@@ -340,7 +333,6 @@ collections:
       - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
       - { label: "Meta Description", name: "meta_description", widget: "text", required: false }
       - { label: "RSS Feed Title", name: "rss_feed_title", widget: "string", required: false }
-      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Path EN", name: "path_en", widget: "string", required: false }
       - { label: "Path FR", name: "path_fr", widget: "string", required: false }
       - { lalabel: "Term ID", name: "termId", widget: "number", value_type: "int" }
@@ -369,7 +361,6 @@ collections:
       - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
       - { label: "Meta Description", name: "meta_description", widget: "text", required: false }
       - { label: "RSS Feed Title", name: "rss_feed_title", widget: "string", required: false }
-      - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Path EN", name: "path_en", widget: "string", required: false }
       - { label: "Path FR", name: "path_fr", widget: "string", required: false }
 
