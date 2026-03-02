@@ -1,8 +1,8 @@
 title: Biothermica
 description: Integrated carbon and energy project developer
 lang: en
-baseurl: "<base url of a site>"
-# baseurl: "https://suresh-kumara-gist.github.io/biothermica-site-hs-18-feb-2026"
+# baseurl: "<base url of a site>"
+baseurl: "https://biothermica.dcycleproject.org/"
 url: ""
 site-slogan-fr: Notre énergie au service de l'environnement
 site-slogan-en: Our Energy for a Cleaner Environment
