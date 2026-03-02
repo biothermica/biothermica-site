@@ -1,4 +1,3 @@
-{% include calculate_root.html %}
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}"
   dir="ltr" version="HTML+RDFa 1.1"
@@ -72,7 +71,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie"
               <div class="region-inner region-branding-inner">
                 <div class="branding-data clearfix">
                   <div class="logo-img">
-                    <a href="index.html" rel="home" title="biothermica" class="active"><img
+                    <a href="{{ root }}index.html" rel="home" title="biothermica" class="active"><img
                         src="{{ root }}sites/biothermica.com/files/logo_biothermica_med2.png" alt="biothermica" id="logo" /></a>
                   </div>
                   <hgroup class="site-name-slogan">
