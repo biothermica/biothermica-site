@@ -5,12 +5,12 @@
         <div class="region-inner region-branding-inner">
           <div class="branding-data clearfix">
             <div class="logo-img">
-              <a href="{{ root }}index.html" rel="home" title="biothermica" class="active"><img
-                  src="{{ root }}sites/biothermica.com/files/logo_biothermica_med2.png" alt="biothermica" id="logo" /></a>
+              <a href="{{ site.baseurl }}index.html" rel="home" title="biothermica" class="active"><img
+                  src="{{ site.baseurl }}sites/biothermica.com/files/logo_biothermica_med2.png" alt="biothermica" id="logo" /></a>
             </div>
             <hgroup class="site-name-slogan">
 
-              <h1 class="site-name"><a href="{{ root }}index.html" title="Home" class="active">{{ site.title }}</a></h1>
+              <h1 class="site-name"><a href="{{ site.baseurl }}index.html" title="Home" class="active">{{ site.title }}</a></h1>
               <h6 class="site-slogan">{{ site-slogan-en }}</h6>
             </hgroup>
           </div>
@@ -59,7 +59,7 @@
                    sf-no-children
                  {% endif %}">
 
-                    <a href="{{ root }}{{ item.url }}"
+                    <a href="{{ site.baseurl }}{{ item.url }}"
                       class="sf-depth-1 {% if page.url == item.url %}active{% endif %} {% if has_children %}menuparent{% endif %}">
                       {{ item.title }}
                     </a>
@@ -76,7 +76,7 @@
                        sf-depth-2
                        sf-no-children">
 
-                        <a href="{{ root }}{{ child.url }}" class="sf-depth-2">
+                        <a href="{{ site.baseurl }}{{ child.url }}" class="sf-depth-2">
                           {{ child.title }}
                         </a>
                       </li>

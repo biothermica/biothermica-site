@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="{{ root }}fr/taxonomy/term/80/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="{{ site.baseurl }}fr/taxonomy/term/80/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <channel>
     <title>OTR ; oxydation thermique régénérative</title>
     <link>https://www.biothermica.com/fr/taxonomy/term/80/all</link>
     <description></description>
     <language>fr</language>
-     <atom:link href="{{ root }}fr/taxonomy/term/80/all/feed" rel="self" type="application/rss+xml" />
+     <atom:link href="{{ site.baseurl }}fr/taxonomy/term/80/all/feed" rel="self" type="application/rss+xml" />
       <item>
     <title>Projets OTR</title>
     <link>https://www.biothermica.com/fr/assainissement/projets</link>
