@@ -151,7 +151,7 @@ collections:
     filter:
       field: "lang"
       value: "en"
-  
+
   - name: "en_pages"
     label: "English Pages"
     folder: "docs"
@@ -195,14 +195,14 @@ collections:
       - { label: "Category ID", name: "category_id", widget: "string" }
       - { label: "Project ID", name: "project_id", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "default-fr" }      
+      - { label: "Layout", name: "layout", widget: "hidden", default: "default-fr" }
     filter:
       field: "lang"
       value: "fr"
 
   - name: "fr_assainissement_projets"
     label: "FR Assainissement Projets"
-    folder: "docs/fr/assainissement/projets"
+    folder: "docs/fr/assainissement/projets/"
     create: true
     nested:
       depth: 3
@@ -309,7 +309,7 @@ collections:
 
   - name: "fr_carbon_and_energy"
     label: "FR Carbon And Energy"
-    folder: "docs/fr/https_/www.biothermica.com/fr/content/carbone-et-énergie"
+    folder: "docs/fr/content/carbone-et-energie"
     create: true
     extension: "html"
     format: "frontmatter"

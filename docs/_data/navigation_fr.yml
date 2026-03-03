@@ -1,78 +1,78 @@
 - title: "Accueil"
-  url: index.html
+  url: fr/index.html
 
 - title: "Entreprise"
-  url: content/entreprise.html
+  url: fr/content/entreprise.html
   children:
     - title: "À propos de nous"
-      url: content/entreprise.html
+      url: fr/content/entreprise.html
     - title: "Historique"
-      url: content/historique.html
+      url: fr/content/historique.html
     - title: "Conseil d'administration"
-      url: content/conseil-dadministration.html
+      url: fr/content/conseil-dadministration.html
     - title: "Prix et distinctions"
-      url: content/prix-distinctions.html
+      url: fr/content/prix-distinctions.html
     - title: "Vidéo Corporative"
-      url: content/vidéo-corporative.html
+      url: fr/content/vidéo-corporative.html
     - title: "Vidéo - Centrale Gazmont"
-      url: content/vidéo-centrale-gazmont.html
+      url: fr/content/vidéo-centrale-gazmont.html
 
 - title: "Assainissement de l'air"
-  url: content/oxydation-thermique-regenerative.html
+  url: fr/content/oxydation-thermique-regenerative.html
   children:
     - title: "BIOTOX® OTR"
-      url: content/oxydation-thermique-regenerative.html
+      url: fr/content/oxydation-thermique-regenerative.html
     - title: "Projets OTR"
-      url: assainissement/projets.html
+      url: fr/assainissement/projets.html
 
 - title: "Méthane Minier"
-  url: content/methane-minier.html
+  url: fr/content/methane-minier.html
   children:
     - title: "Modèle d'affaires"
-      url: content/methane-minier.html
+      url: fr/content/methane-minier.html
     - title: "VAMOX® OTR"
-      url: content/vamox-rto.html
+      url: fr/content/vamox-rto.html
     - title: "Ventilation du méthane, É.-U."
-      url: content/ventilation-du-méthane-états-unis.html
+      url: fr/content/ventilation-du-méthane-états-unis.html
 
 - title: "Services Biogaz"
-  url: content/services-biogaz.html
+  url: fr/content/services-biogaz.html
   children:
     - title: "Expertise"
-      url: content/services-biogaz.html
+      url: fr/content/services-biogaz.html
     - title: "Projets biogaz"
-      url: content/projets.html
+      url: fr/content/projets.html
 
 - title: "Carbone et Énergie"
-  url: content/carbone-et-énergie.html
+  url: fr/content/carbone-et-energie.html
   children:
     - title: "Étapes d'un projet"
-      url: content/carbone-et-énergie.html
+      url: fr/content/carbone-et-energie.html
     - title: "Centrale Gazmont"
-      url: content/carbone-énergie.html
+      url: fr/content/carbone-energie.html
     - title: "Projet Nejapa"
-      url: content/nejapa-projet-biogaz.html
+      url: fr/content/nejapa-projet-biogaz.html
     - title: "BioEnergie Haiti"
-      url: content/bioenergie-haiti.html
+      url: fr/content/bioenergie-haiti.html
     - title: "BioÉnergie Togo"
-      url: https_/www.biothermica.com/fr/content/carbone-et-énergie/bioenergie-togo.html
+      url: fr/content/carbone-et-energie/bioenergie-togo.html
 
 - title: "Documents"
-  url: documents.html
+  url: fr/documents.html
   children:
     - title: "Communiqués de presse"
-      url: documents/53.html
+      url: fr/documents/53.html
     - title: "Présentations"
-      url: documents/9.html
+      url: fr/documents/9.html
     - title: "Publications"
-      url: documents/10.html
+      url: fr/documents/10.html
     - title: "Brochures"
-      url: documents/11.html
+      url: fr/documents/11.html
     - title: "Politiques internes"
-      url: documents/67.html
+      url: fr/documents/67.html
 
 - title: "Contact"
-  url: contactez.html
+  url: fr/contactez.html
   children:
     - title: "Travailler ensemble"
-      url: content/contactez/travailler-ensemble.html
+      url: fr/content/contactez/travailler-ensemble.html
