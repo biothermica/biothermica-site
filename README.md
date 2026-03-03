@@ -14,3 +14,9 @@ and visit http://0.0.0.0:4590
 
 * [WSP](https://www.wsp.com/fr-ca)
 * [Tetratech](https://fr.tetratech.com/solutions/dechets-solides/construction-et-forage-des-sites-de-gaz-denfouissement/)
+
+## Templates pour demo possible
+
+* https://html5up.net/solid-state
+* https://html5up.net/verti
+* https://html5up.net/zerofour
