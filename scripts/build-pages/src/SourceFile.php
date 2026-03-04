@@ -26,7 +26,7 @@ class SourceFile {
   }
   public function toYaml(string $lang, string $id) {
     return yaml_emit([
-      'layout' => 'page',
+      'layout' => 'march2026',
       'lang' => $lang,
       'data' => $id,
     ]);

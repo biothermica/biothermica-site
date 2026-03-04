@@ -4,3 +4,10 @@ paths:
 titles:
   en: Home
   fr: Accueil
+sections_header:
+  - structure: header
+  - structure: banner
+sections:
+  - structure: three-featured
+sections:
+  - structure: awards

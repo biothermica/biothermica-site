@@ -7,8 +7,8 @@ backend:
   # base_url: https://suresh-issue-82.dcycleproject.org
   # auth_endpoint: /auth/github/repo/69854552314079e1b66d994f
 
-media_folder: "docs/sites/biothermica.com/files"
-public_folder: "docs/sites/biothermica.com/files"
+media_folder: "docs/media"
+public_folder: "/media"
 
 collections:
   - name: "en_air_pollution_control_projects"
