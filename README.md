@@ -15,8 +15,10 @@ and visit http://0.0.0.0:4590
 * [WSP](https://www.wsp.com/fr-ca)
 * [Tetratech](https://fr.tetratech.com/solutions/dechets-solides/construction-et-forage-des-sites-de-gaz-denfouissement/)
 
-## Templates pour demo possible
+## Refonte mars 2026
 
-* https://html5up.net/solid-state
-* https://html5up.net/verti
-* https://html5up.net/zerofour
+On March 3rd the Biothermica team has decided to use the [HTML 5 up Zero Four](https://html5up.net/zerofour) template.
+
+Nous avons établi un système avec les items suivantes:
+
+* layout: une
