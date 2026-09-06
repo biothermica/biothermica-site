@@ -60,8 +60,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie"
       {{ content }}
 
   </div>
-
-
+  <!-- script hides the html element when data-hide-me-on attribute date got expired. -->
+  <script type="text/javascript" src="/script/hide-content-on-date.js?token={{ site.time | date: '%s' }}"></script>
   </body>
 
 <!-- Mirrored from www.biothermica.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Feb 2026 08:21:14 GMT -->
