@@ -14,21 +14,22 @@
  * The element is hidden when the page loads and the expiration date
  * has already passed.
  *
- * Use this functionality display the specific event image or content
+ * Use this functionality to display the specific event image or content
  *  that has to be hidden when event date is passed.
  */
 document.querySelectorAll('[data-hide-me-on]').forEach((element) => {
-    const expiryDate = element.dataset.hideMeOn;
+  const expiryDate = element.dataset.hideMeOn;
 
-    // Parse as a local date to avoid timezone issues
-    const [year, month, day] = expiryDate.split('-').map(Number);
-    const expiry = new Date(year, month - 1, day);
+  // Parse as a local date to avoid timezone issues
+  const [year, month, day] = expiryDate.split('-').map(Number);
+  const expiry = new Date(year, month - 1, day);
 
-    // Today, with the time removed
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
+  // Today, with the time removed
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
 
-    if (expiry < today) {
-      element.style.display = 'none';
-    }
-  });
+  if (expiry < today) {
+    element.style.display = 'none';
+  }
+
+});
